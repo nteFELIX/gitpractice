@@ -1,0 +1,26 @@
+
+#!/bin/bash
+
+read -p "Enter university name: " university
+
+case "$university" in
+
+Eket)
+echo "university at Calabar" 
+;;
+
+Ebsu)
+echo "university in Ebonyi state"
+;;
+
+Esut)
+echo "Enugu state university"
+;;
+
+*)
+echo "not a university"
+;;
+
+esac
+
+
